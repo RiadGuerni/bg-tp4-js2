@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etape 5 - Insertion par formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="table_container">
+        <!-- Etape 5 -->
+        <div id="form_container">
+            <div class="form_group">
+                <label for="form_nom" class="form_label">Nom:</label>
+                <input type="text" id="form_nom" class="form_field">
+            </div>
+            <div class="form_group">
+                <label for="form_prenom" class="form_label">Pr&eacute;nom:</label>
+                <input type="text" id="form_prenom" class="form_field">
+            </div>
+            <div class="form_group">
+                <label for="form_points" class="form_label">Points:</label>
+                <input type="number" id="form_points" class="form_field">
+            </div>
+            <button type="button" id="btn_add">Ajouter</button>
+        </div>
+        <!-- Etape 4 -->
+        <table>
+            <thead>
+                <tr>
+                    <th class="col_number">N&deg;</th>
+                    <th class="col_text">Nom</th>
+                    <th class="col_text">Pr&eacute;nom</th>
+                    <th class="col_number">Points</th>
+                    <th class="col_chkbox">Select</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+            </tbody>
+        </table>
+        <div id="container_summary">
+            <p id="p1">0 ligne(s)</p>
+            <p id="p2"></p>
+            <p id="p3">Total point(s)= 0</p>
+        </div>
+        <button type="button" id="btn_console">Console Tableau</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
