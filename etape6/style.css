@@ -1,0 +1,110 @@
+#table_container {
+    width: 90%;
+    margin: 40px auto;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #0085b3;
+    color: white;
+}
+
+.col_number, .col_chkbox {
+    width: 10%;
+    text-align: center;
+}
+
+.col_text {
+    width: 35%;
+}
+
+#container_summary {
+    display: flex;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+#container_summary p {
+    margin: 0;
+}
+
+#p2 {
+    flex: 1;
+    text-align: center;
+}
+
+#p3 {
+    width: 25%;
+}
+
+#form_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.form_label {
+    font-weight: bold;
+}
+
+.form_field {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    font-family: inherit;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #00b000;
+}
+
+.btn-del {
+    background-color: #ff0000;
+}
+
+.btn-consol {
+    background-color: #c09500;
+}
+
+.btn-other {
+    background-color: #666666;
+}
+
+#container_btn {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: 1px solid #dddddd;
+    padding: 15px;
+}
